@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class TestController {
 
     @GetMapping()
-    public ResponseEntity<?> testWithNon() {
+    public ResponseEntity<?> testWithNon()  {
         HashMap<String, Object> data = new HashMap<>();
         data.put("id", "some_id");
         data.put("pw", "some_pw");
